@@ -25,6 +25,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Fraunces';
+  font-family: sans-serif;
 }
 
 .card {
@@ -40,7 +42,36 @@ body {
 }
 
 .description {
+  position: relative;
+  padding: 1.5rem;
   background-color: #fff;
+  border-bottom: 1px solid hsla(227, 10%, 46%, 0.123);
+}
+
+.description img {
+  position: absolute;
+  top: -55px;
+  left: 130px;
+}
+
+.description h2 {
+  margin-top: 3rem;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+span {
+  margin-left: 5px;
+  color: hsl(227, 10%, 46%);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.description p {
+  color: hsl(227, 10%, 46%);
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 0.6rem;
 }
 
 .card img {
@@ -54,4 +85,24 @@ body {
   justify-content: space-evenly;
   padding: 2rem;
   border-radius: 0 0 10px 10px;
+}
+
+li {
+  list-style: none;
+}
+
+.follower-numbers .number {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.follower-numbers .desc {
+  color: hsl(227, 10%, 46%);
+  font-size: 10px;
+  letter-spacing: 1.5;
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
