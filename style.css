@@ -1,0 +1,57 @@
+/*
+ <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+<style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+</style> */
+
+/* font-family: 'Fraunces', serif; */
+.k {
+  color: hsl(185, 75%, 39%), hsl(229, 23%, 23%), hsl(227, 10%, 46%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid hsl(185, 75%, 39%);
+  text-align: center;
+}
+
+.bg-img {
+  background: url(images/bg-pattern-card.svg);
+  width: 350px;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+}
+
+.description {
+  background-color: #fff;
+}
+
+.card img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.follower-numbers {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  border-radius: 0 0 10px 10px;
+}
