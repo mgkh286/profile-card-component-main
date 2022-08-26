@@ -20,6 +20,12 @@
 }
 
 body {
+  /* min-width: 400px; */
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(images/bg-pattern-bottom.svg),
+    url(images/bg-pattern-top.svg);
+  background-position: left 50vw top 40vh, right 46vw bottom 50vh;
+  background-repeat: no-repeat, no-repeat;
   height: 100vh;
   background-color: hsl(185, 75%, 39%);
   display: flex;
